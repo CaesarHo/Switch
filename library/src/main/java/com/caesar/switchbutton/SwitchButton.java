@@ -1,4 +1,4 @@
-package com.kyleduo.switchbutton;
+package com.caesar.switchbutton;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.kyleduo.switchbutton;
+package com.caesar.switchbutton;
 
 import android.content.res.ColorStateList;
 

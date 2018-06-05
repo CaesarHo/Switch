@@ -1,4 +1,4 @@
-package com.kyleduo.switchbutton.demo;
+package com.caesar.switchbutton;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import com.kyleduo.switchbutton.SwitchButton;
+import com.caesar.switchbutton.SwitchButton;
 
 import java.util.ArrayList;
 import java.util.List;

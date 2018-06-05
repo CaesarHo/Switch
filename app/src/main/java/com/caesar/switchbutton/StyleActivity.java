@@ -1,10 +1,10 @@
-package com.kyleduo.switchbutton.demo;
+package com.caesar.switchbutton;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.CompoundButton;
 
-import com.kyleduo.switchbutton.SwitchButton;
+import com.caesar.switchbutton.SwitchButton;
 
 public class StyleActivity extends AppCompatActivity {
 

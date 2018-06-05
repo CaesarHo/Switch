@@ -1,4 +1,4 @@
-package com.kyleduo.switchbutton.demo;
+package com.caesar.switchbutton;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
 	@Override
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 		ListView listView = (ListView) findViewById(R.id.list);
 		listView.setOnItemClickListener(this);
 	}
-
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -34,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 		int id = item.getItemId();
 		switch (id) {
 			case R.id.action_github:
-				intent.setData(Uri.parse("https://github.com/kyleduo/SwitchButton"));
+				intent.setData(Uri.parse("https://github.com/CaesarHo/SwitchButton"));
 				startActivity(intent);
 				return true;
 			case R.id.action_blog:

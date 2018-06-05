@@ -1,4 +1,4 @@
-package com.kyleduo.switchbutton.demo;
+package com.caesar.switchbutton;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -12,7 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kyleduo.switchbutton.SwitchButton;
+import com.caesar.switchbutton.SwitchButton;
 
 public class UseActivity extends AppCompatActivity implements View.OnClickListener {
 
